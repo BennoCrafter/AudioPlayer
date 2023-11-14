@@ -7,7 +7,6 @@ body {
 }
 
 .src-link-container {
-  height: 100vh; /* Make the container the full viewport height */
   display: flex; /* Use flexbox to center vertically and horizontally */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
@@ -15,4 +14,18 @@ body {
 
 #filePath {
   text-align: center; /* Center the text horizontally within the paragraph */
+}
+
+
+#progressBar {
+  width: 100%;
+  height: 20px;
+  background-color: #eee;
+  margin-top: 10px;
+}
+
+#progress {
+  height: 100%;
+  background-color: #4caf50;
+  width: 0;
 }
